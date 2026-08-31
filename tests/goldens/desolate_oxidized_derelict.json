@@ -1,0 +1,36 @@
+{
+  "format": "mood-to-master",
+  "version": 1,
+  "category": "metal",
+  "preset": "metal.brushed_aluminum",
+  "paid_preset": "metal.aged_brass",
+  "hits": [
+    "desolate",
+    "derelict",
+    "oxidized copper",
+    "deep shadow",
+    "rust",
+    "starlight",
+    "bare metal",
+    "debris-field"
+  ],
+  "deltas": {
+    "Roughness": 0.66,
+    "Coat Weight": -0.35,
+    "Anisotropy": -0.45,
+    "darken": 0.42
+  },
+  "values": {
+    "Color": [
+      0.248986,
+      0.114032,
+      0.05365,
+      1.0
+    ],
+    "Roughness": 0.94,
+    "Anisotropy": 0.2,
+    "Rotation": 0.0,
+    "Coat Weight": 0.0,
+    "Coat Roughness": 0.03
+  }
+}
