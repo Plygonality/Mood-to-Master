@@ -14,8 +14,8 @@ from mood_to_master.rules import MOODS
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Map Hard Sci-Fi Idea Generator moods and tags onto a Master-Node "
-            "value map that Plygon-mcp can set_param."
+            "Maps generator moods and tags onto Master Node category, preset IDs, "
+            "and socket deltas. Output is a value map MCP can set_param."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(

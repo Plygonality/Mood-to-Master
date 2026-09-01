@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mood-to-master"
 version = "0.1.0"
-description = "Map Hard Sci-Fi Idea Generator moods and tags onto Master Node category, preset IDs, and socket deltas."
+description = "Maps generator moods and tags onto Master Node category, preset IDs, and socket deltas. Output is a value map MCP can set_param."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"

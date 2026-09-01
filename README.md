@@ -1,8 +1,8 @@
 # Mood to Master
 
-Maps [Hard Sci-Fi Idea Generator](https://github.com/Plygonality/Hard-SciFi-idea-generator) moods and tags onto [Master Node](https://github.com/Plygonality/Master-Node) category + preset IDs + socket deltas.
+Maps generator moods and tags onto Master Node category, preset IDs, and socket deltas. Output is a value map MCP can `set_param`.
 
-**Output is a value map** [Plygon-mcp](https://github.com/Plygonality/Plygon-mcp) can `set_param`.
+[Hard Sci-Fi Idea Generator](https://github.com/Plygonality/Hard-SciFi-idea-generator) briefs become [Master Node](https://github.com/Plygonality/Master-Node) looks. [Plygon-mcp](https://github.com/Plygonality/Plygon-mcp) writes the map and screenshots the viewport.
 
 ```
 Hard-SciFi-idea-generator  →  Mood-to-Master  →  Master-Node  →  Plygon-mcp screenshot

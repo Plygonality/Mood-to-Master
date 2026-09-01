@@ -1,7 +1,6 @@
-"""Map Hard Sci-Fi Idea Generator moods/tags onto Master-Node value maps.
+"""Maps generator moods and tags onto Master Node category, preset IDs, and socket deltas.
 
-The product is the look record. Plygon-mcp binds the category, set_param each
-socket, and screenshots the viewport. Artists still look-dev in the N-panel.
+Output is a value map Plygon-mcp can set_param. Artists still look-dev in the N-panel.
 """
 
 from mood_to_master.apply import set_param_map, to_live_script
